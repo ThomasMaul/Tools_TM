@@ -124,5 +124,41 @@
 		"top": 198,
 		"width": 1641,
 		"height": 1417
+	},
+	"Sources/Methods/Tools_XMLtoObject_Sub.4dm": {
+		"left": 1162,
+		"top": 198,
+		"width": 1641,
+		"height": 1417
+	},
+	"Sources/Methods/Tools_XMLToObject.4dm": {
+		"left": 1162,
+		"top": 198,
+		"width": 1641,
+		"height": 1417
+	},
+	"Sources/Methods/Tools_RGBColorLight.4dm": {
+		"left": 950,
+		"top": 250,
+		"width": 1641,
+		"height": 1417
+	},
+	"Sources/Methods/Tools_HexToDec.4dm": {
+		"left": 950,
+		"top": 250,
+		"width": 1641,
+		"height": 1417
+	},
+	"Sources/Methods/Tools_FindNextNewLine.4dm": {
+		"left": 950,
+		"top": 250,
+		"width": 1641,
+		"height": 1417
+	},
+	"Sources/Methods/Tools_CheckIBAN.4dm": {
+		"left": 1091,
+		"top": 284,
+		"width": 1641,
+		"height": 1417
 	}
 }

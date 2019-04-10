@@ -81,12 +81,66 @@
 		"stamp": "2019-04-10T09:51:17.927Z"
 	},
 	"Sources/Methods/Tools_GitCommit.4dm": {
-		"startSelection": 6,
-		"endSelection": 6,
-		"firstSelectedLine": 40,
-		"lastSelectedLine": 40,
+		"startSelection": 37,
+		"endSelection": 37,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2019-04-10T10:19:46.897Z"
+	},
+	"Sources/Methods/Tools_XMLtoObject_Sub.4dm": {
+		"startSelection": 21,
+		"endSelection": 21,
+		"firstSelectedLine": 28,
+		"lastSelectedLine": 28,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T13:02:27.706Z"
+	},
+	"Sources/Methods/Tools_XMLToObject.4dm": {
+		"startSelection": 17,
+		"endSelection": 17,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T13:38:52.080Z"
+	},
+	"Sources/Methods/Tools_RGBColorLight.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T13:05:49.090Z"
+	},
+	"Sources/Methods/Tools_HexToDec.4dm": {
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T13:20:39.852Z"
+	},
+	"Sources/Methods/Tools_FindNextNewLine.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T13:30:19.638Z"
+	},
+	"Sources/Methods/Tools_CheckIBAN.4dm": {
+		"startSelection": 12,
+		"endSelection": 12,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T13:37:25.806Z"
 	}
 }
