@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<preferences stamp="10">
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="12">
 	<com.4d>
 		<interface>
 			<user can_change_password="true" default_user="0" print_progress="false"/>
@@ -10,7 +9,7 @@
           		</sql>
 		<web>
 			<standalone_server>
-				<misc automatic_variables_management="false" remove_slash="true"/>
+				<misc/>
 				<options>
 					<web_processes timeout_for_inactives="18000"/>
 					<cache cache_max_size="524288"/>
@@ -20,7 +19,7 @@
 				<webservices allow_requests="false" name="" name_space="" wizard_method_prefix=""/>
                                       			</standalone_server>
 			<remote>
-				<misc automatic_variables_management="true" remove_slash="true"/>
+				<misc/>
 				<options>
 					<web_processes timeout_for_inactives="18000"/>
 					<cache cache_max_size="524288"/>
@@ -34,7 +33,7 @@
 			<options fat_binary="true" symbol_file="true"/>
           		</compiler>
 		<database>
-			<misc accept_dot_syntax="true" allow_json_dates="true" store_unicode_tokens="true"/>
+			<misc/>
 		</database>
 		<server>
 			<network>
@@ -42,7 +41,7 @@
 			</network>
 		</server>
 		<deployment>
-			<options generate_applications_for_read_only_deployment="false"/>
+			<options/>
 		</deployment>
                   	</com.4d>
   </preferences>

@@ -1,0 +1,128 @@
+﻿{
+	"Sources/Methods/Tools_AdjustWindowSize.4dm": {
+		"left": 263,
+		"top": 130,
+		"width": 1365,
+		"height": 1133
+	},
+	"Sources/Methods/Tools_IsEmailValid.4dm": {
+		"left": 1274,
+		"top": 377,
+		"width": 1452,
+		"height": 1443
+	},
+	"Sources/Methods/Tools_TS_Generate.4dm": {
+		"left": 200,
+		"top": 164,
+		"width": 1338,
+		"height": 838
+	},
+	"Sources/Methods/Tools_TS_GenerateCurrent.4dm": {
+		"left": 200,
+		"top": 164,
+		"width": 1338,
+		"height": 838
+	},
+	"Sources/Methods/Tools_TS_GetValues.4dm": {
+		"left": 272,
+		"top": 85,
+		"width": 1338,
+		"height": 838
+	},
+	"Sources/Methods/Tools_TS_GetString.4dm": {
+		"left": 200,
+		"top": 164,
+		"width": 1338,
+		"height": 838
+	},
+	"Sources/Methods/Tools_CalendarWeek.4dm": {
+		"left": 479,
+		"top": 101,
+		"width": 1052,
+		"height": 824
+	},
+	"Sources/Methods/Tools_FilterText.4dm": {
+		"left": 383,
+		"top": 119,
+		"width": 1272,
+		"height": 1124
+	},
+	"Sources/Methods/Tools_OpenFormWindowStack.4dm": {
+		"left": 300,
+		"top": 182,
+		"width": 1210,
+		"height": 771
+	},
+	"Sources/Methods/Tools_Soundex.4dm": {
+		"left": 242,
+		"top": 327,
+		"width": 972,
+		"height": 770
+	},
+	"Sources/Methods/Tools_SplitTextTTR.4dm": {
+		"left": 497,
+		"top": 109,
+		"width": 1052,
+		"height": 997
+	},
+	"Sources/Methods/Tools_Split2DimTextTTR.4dm": {
+		"left": 2115,
+		"top": 716,
+		"width": 1314,
+		"height": 1082
+	},
+	"Sources/Methods/Tools_ResizeArray.4dm": {
+		"left": 510,
+		"top": 381,
+		"width": 1272,
+		"height": 811
+	},
+	"Sources/Methods/Tools_TS_GetDate.4dm": {
+		"left": 499,
+		"top": 84,
+		"width": 1052,
+		"height": 918
+	},
+	"Sources/Methods/Compiler_Methods.4dm": {
+		"left": 479,
+		"top": 103,
+		"width": 1283,
+		"height": 1663
+	},
+	"Sources/Methods/Tools_URL_Encoder.4dm": {
+		"left": 563,
+		"top": 63,
+		"width": 1268,
+		"height": 934
+	},
+	"Sources/Methods/Tools_URL_Encoder2.4dm": {
+		"left": 106,
+		"top": 109,
+		"width": 822,
+		"height": 693
+	},
+	"Sources/Methods/ztest.4dm": {
+		"left": 76,
+		"top": 202,
+		"width": 1145,
+		"height": 823
+	},
+	"Sources/Methods/ztest3.4dm": {
+		"left": 143,
+		"top": 278,
+		"width": 1272,
+		"height": 982
+	},
+	"Sources/Methods/Tools_KoelnerPhonetik.4dm": {
+		"left": 1970,
+		"top": 258,
+		"width": 1481,
+		"height": 1759
+	},
+	"Sources/Methods/Tools_GitCommit.4dm": {
+		"left": 1162,
+		"top": 198,
+		"width": 1641,
+		"height": 1417
+	}
+}

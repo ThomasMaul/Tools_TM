@@ -1,0 +1,92 @@
+﻿{
+	"Sources/Methods/Tools_AdjustWindowSize.4dm": {
+		"startSelection": 61,
+		"endSelection": 61,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.914Z"
+	},
+	"Sources/Methods/Tools_IsEmailValid.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 25,
+		"lastSelectedLine": 25,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.915Z"
+	},
+	"Sources/Methods/Tools_OpenFormWindowStack.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.919Z"
+	},
+	"Sources/Methods/Tools_Soundex.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.920Z"
+	},
+	"Sources/Methods/Tools_SplitTextTTR.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.921Z"
+	},
+	"Sources/Methods/Tools_Split2DimTextTTR.4dm": {
+		"startSelection": 18,
+		"endSelection": 33,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.921Z"
+	},
+	"Sources/Methods/Compiler_Methods.4dm": {
+		"startSelection": 30,
+		"endSelection": 30,
+		"firstSelectedLine": 33,
+		"lastSelectedLine": 33,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.923Z"
+	},
+	"Sources/Methods/Tools_URL_Encoder2.4dm": {
+		"startSelection": 11,
+		"endSelection": 0,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.925Z"
+	},
+	"Sources/Methods/Tools_KoelnerPhonetik.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 128,
+		"lastSelectedLine": 128,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.927Z"
+	},
+	"Sources/Methods/Tools_GitCommit.4dm": {
+		"startSelection": 43,
+		"endSelection": 43,
+		"firstSelectedLine": 29,
+		"lastSelectedLine": 29,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T10:13:30.512Z"
+	}
+}

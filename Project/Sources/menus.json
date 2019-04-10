@@ -2,7 +2,7 @@
 	"bars": [
 		{
 			"id": 1,
-			"title": "Menüleiste #1",
+			"name": "Menüleiste #1",
 			"items": [
 				{
 					"link": 32001

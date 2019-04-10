@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
-<base name="Tools_TM" uuid="69B99A8B6564FF44978BE3ABFB30AC69" collation_locale="de">
-	<schema name="DEFAULT_SCHEMA"/>
-	<base_extra data_file_path=":Tools_TM.4DD" package_name="Tools_TM" structure_file_name="Tools_TM" __stringCompHash="icu:56.1.0" __keywordBuildingHash="icu:56.1.0">
-		<journal_file journal_file_enabled="true"/>
-	</base_extra>
-</base>

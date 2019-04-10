@@ -1,0 +1,15 @@
+﻿{
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483627,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Tools_GitCommit"
+			}
+		},
+		{
+			"type": "explorer"
+		}
+	]
+}
