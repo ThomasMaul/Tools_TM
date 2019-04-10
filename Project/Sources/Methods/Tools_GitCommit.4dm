@@ -34,9 +34,9 @@ Else
 		SET ENVIRONMENT VARIABLE:C812("_4D_OPTION_HIDE_CONSOLE";"true")
 		LAUNCH EXTERNAL PROCESS:C811("git push";$in;$out;$error)
 		If (($out#"") | ($error#""))
-			ALERT:C41("Error git push: "+$out+" "+$error)
+			ALERT:C41("$out+""+$error)"
 		Else 
-			ALERT:C41("Done")
+			ALERT:C41("Done, but no return message?")
 		End if 
 	End if 
 End if 
