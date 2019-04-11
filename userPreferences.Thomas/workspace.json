@@ -2,6 +2,14 @@
 	"editors": [
 		{
 			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483622,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "Tools_SetWindowSizeByObject"
+			}
 		}
 	]
 }

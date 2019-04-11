@@ -78,7 +78,7 @@
 		"lastSelectedLine": 128,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-10T09:51:17.927Z"
+		"stamp": "2019-04-11T14:57:51.855Z"
 	},
 	"Sources/Methods/Tools_GitCommit.4dm": {
 		"startSelection": 37,
@@ -142,5 +142,23 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2019-04-10T13:37:25.806Z"
+	},
+	"Sources/Methods/Tools_GetWindowSize2Object.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-11T14:58:32.693Z"
+	},
+	"Sources/Methods/Tools_SetWindowSizeByObject.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-11T14:58:27.118Z"
 	}
 }

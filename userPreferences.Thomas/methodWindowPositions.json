@@ -117,7 +117,7 @@
 		"left": 1970,
 		"top": 258,
 		"width": 1481,
-		"height": 1759
+		"height": 1643
 	},
 	"Sources/Methods/Tools_GitCommit.4dm": {
 		"left": 1162,
@@ -160,5 +160,17 @@
 		"top": 284,
 		"width": 1641,
 		"height": 1417
+	},
+	"Sources/Methods/Tools_GetWindowSize2Object.4dm": {
+		"left": 1568,
+		"top": 475,
+		"width": 1667,
+		"height": 1552
+	},
+	"Sources/Methods/Tools_SetWindowSizeByObject.4dm": {
+		"left": 1568,
+		"top": 475,
+		"width": 1667,
+		"height": 1552
 	}
 }

@@ -1,0 +1,1 @@
+﻿//%attributes = {"shared":true}  // store current window size in Object and return as $0GET WINDOW RECT:C443($links2;$oben2;$rechts2;$unten2)C_OBJECT:C1216($obj)OB SET:C1220($obj;"left";$links2;"top";$oben2;"right";$rechts2;"bottom";$unten2)$0:=$obj
