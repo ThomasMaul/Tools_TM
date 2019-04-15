@@ -1,12 +1,12 @@
 ﻿{
 	"Sources/Methods/Tools_AdjustWindowSize.4dm": {
-		"startSelection": 61,
-		"endSelection": 61,
-		"firstSelectedLine": 11,
-		"lastSelectedLine": 11,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-10T09:51:17.914Z"
+		"stamp": "2019-04-15T10:00:54.557Z"
 	},
 	"Sources/Methods/Tools_IsEmailValid.4dm": {
 		"startSelection": 13,
@@ -20,11 +20,11 @@
 	"Sources/Methods/Tools_OpenFormWindowStack.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 18,
-		"lastSelectedLine": 18,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-10T09:51:17.919Z"
+		"stamp": "2019-04-15T10:00:37.036Z"
 	},
 	"Sources/Methods/Tools_Soundex.4dm": {
 		"startSelection": 13,
@@ -54,22 +54,22 @@
 		"stamp": "2019-04-10T09:51:17.921Z"
 	},
 	"Sources/Methods/Compiler_Methods.4dm": {
-		"startSelection": 30,
-		"endSelection": 30,
-		"firstSelectedLine": 33,
-		"lastSelectedLine": 33,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 25,
+		"lastSelectedLine": 25,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-10T09:51:17.923Z"
+		"stamp": "2019-04-15T10:01:18.642Z"
 	},
 	"Sources/Methods/Tools_URL_Encoder2.4dm": {
-		"startSelection": 11,
+		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 18,
+		"firstSelectedLine": 0,
 		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-10T09:51:17.925Z"
+		"stamp": "2019-04-10T13:03:14.496Z"
 	},
 	"Sources/Methods/Tools_KoelnerPhonetik.4dm": {
 		"startSelection": 11,
@@ -90,13 +90,13 @@
 		"stamp": "2019-04-10T10:19:46.897Z"
 	},
 	"Sources/Methods/Tools_XMLtoObject_Sub.4dm": {
-		"startSelection": 21,
-		"endSelection": 21,
-		"firstSelectedLine": 28,
-		"lastSelectedLine": 28,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-10T13:02:27.706Z"
+		"stamp": "2019-04-10T13:03:26.667Z"
 	},
 	"Sources/Methods/Tools_XMLToObject.4dm": {
 		"startSelection": 17,
@@ -146,19 +146,100 @@
 	"Sources/Methods/Tools_GetWindowSize2Object.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 6,
-		"lastSelectedLine": 6,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-11T14:58:32.693Z"
+		"stamp": "2019-04-15T10:00:46.467Z"
 	},
 	"Sources/Methods/Tools_SetWindowSizeByObject.4dm": {
-		"startSelection": 7,
-		"endSelection": 7,
-		"firstSelectedLine": 12,
-		"lastSelectedLine": 12,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-11T14:58:27.118Z"
+		"stamp": "2019-04-15T10:01:04.867Z"
+	},
+	"Sources/Methods/Tools_URL_Encoder.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.924Z"
+	},
+	"Sources/Methods/Tools_TS_GetValues.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.917Z"
+	},
+	"Sources/Methods/Tools_TS_GetString.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.917Z"
+	},
+	"Sources/Methods/Tools_TS_GetDate.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.923Z"
+	},
+	"Sources/Methods/Tools_TS_GenerateCurrent.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.916Z"
+	},
+	"Sources/Methods/Tools_TS_Generate.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.915Z"
+	},
+	"Sources/Methods/Tools_ResizeArray.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.922Z"
+	},
+	"Sources/Methods/Tools_FilterText.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.919Z"
+	},
+	"Sources/Methods/Tools_CalendarWeek.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-10T09:51:17.918Z"
 	}
 }

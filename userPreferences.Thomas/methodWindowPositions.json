@@ -25,7 +25,7 @@
 	},
 	"Sources/Methods/Tools_TS_GetValues.4dm": {
 		"left": 272,
-		"top": 85,
+		"top": 103,
 		"width": 1338,
 		"height": 838
 	},
@@ -37,7 +37,7 @@
 	},
 	"Sources/Methods/Tools_CalendarWeek.4dm": {
 		"left": 479,
-		"top": 101,
+		"top": 103,
 		"width": 1052,
 		"height": 824
 	},
@@ -79,7 +79,7 @@
 	},
 	"Sources/Methods/Tools_TS_GetDate.4dm": {
 		"left": 499,
-		"top": 84,
+		"top": 103,
 		"width": 1052,
 		"height": 918
 	},
@@ -87,11 +87,11 @@
 		"left": 479,
 		"top": 103,
 		"width": 1283,
-		"height": 1663
+		"height": 1643
 	},
 	"Sources/Methods/Tools_URL_Encoder.4dm": {
 		"left": 563,
-		"top": 63,
+		"top": 103,
 		"width": 1268,
 		"height": 934
 	},
