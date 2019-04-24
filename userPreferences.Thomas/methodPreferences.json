@@ -241,5 +241,23 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2019-04-10T09:51:17.918Z"
+	},
+	"Sources/Methods/ztest.4dm": {
+		"startSelection": 16,
+		"endSelection": 16,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-24T08:33:49.565Z"
+	},
+	"Sources/Methods/ztest3.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-24T08:33:56.557Z"
 	}
 }

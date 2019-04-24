@@ -9,3 +9,5 @@ C_POINTER:C301($c)
 Tools_ResizeArray (->$c;10)
 
 Tools_ResizeArray (->$a;-1)
+
+  // another test
