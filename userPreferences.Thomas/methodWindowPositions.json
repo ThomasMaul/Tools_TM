@@ -72,8 +72,8 @@
 		"height": 1082
 	},
 	"Sources/Methods/Tools_ResizeArray.4dm": {
-		"left": 510,
-		"top": 381,
+		"left": 953,
+		"top": 529,
 		"width": 1272,
 		"height": 811
 	},
@@ -172,5 +172,17 @@
 		"top": 475,
 		"width": 1667,
 		"height": 1552
+	},
+	"Sources/Methods/Tools_CopyToSharedObject.4dm": {
+		"left": 1386,
+		"top": 268,
+		"width": 1392,
+		"height": 1077
+	},
+	"Sources/Methods/Tools_CopyToSharedCollection.4dm": {
+		"left": 1386,
+		"top": 268,
+		"width": 1392,
+		"height": 1077
 	}
 }

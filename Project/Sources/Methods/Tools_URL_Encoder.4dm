@@ -1,10 +1,10 @@
 //%attributes = {"shared":true,"preemptive":"capable"}
-  //   ******  the following routine may be useful if you need to encode your URL
-  // example:  "www.test.com/my method"  contains a blank, so needs to be converted to "www.test.com/my%20method"
+  //  Tools_URL_Encoder
   // call it like $encodedurl:=Tools_URL_Encoder";$url;$Format)
+  //  useful if you need to encode your URL
+  // example:  "www.test.com/my method"  contains a blank, so needs to be converted to "www.test.com/my%20method"
   // $format could be UTF-8 or ISO-8859-1
   // characters > 127 will be encoded using this format. 
-
   //  encodes umlauts, blanks and other special chars in an URL
 
 $result:=""

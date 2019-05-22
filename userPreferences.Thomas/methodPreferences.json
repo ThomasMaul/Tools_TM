@@ -1,12 +1,12 @@
 ﻿{
 	"Sources/Methods/Tools_AdjustWindowSize.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 21,
-		"lastSelectedLine": 21,
+		"startSelection": 80,
+		"endSelection": 80,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-15T10:00:54.557Z"
+		"stamp": "2019-04-24T13:58:59.344Z"
 	},
 	"Sources/Methods/Tools_IsEmailValid.4dm": {
 		"startSelection": 13,
@@ -162,13 +162,13 @@
 		"stamp": "2019-04-15T10:01:04.867Z"
 	},
 	"Sources/Methods/Tools_URL_Encoder.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-10T09:51:17.924Z"
+		"stamp": "2019-04-24T13:58:51.279Z"
 	},
 	"Sources/Methods/Tools_TS_GetValues.4dm": {
 		"startSelection": 0,
@@ -216,13 +216,13 @@
 		"stamp": "2019-04-10T09:51:17.915Z"
 	},
 	"Sources/Methods/Tools_ResizeArray.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
+		"startSelection": 5,
+		"endSelection": 5,
 		"firstSelectedLine": 0,
 		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-04-10T09:51:17.922Z"
+		"stamp": "2019-04-24T14:00:03.484Z"
 	},
 	"Sources/Methods/Tools_FilterText.4dm": {
 		"startSelection": 0,
@@ -259,5 +259,23 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2019-04-24T08:33:56.557Z"
+	},
+	"Sources/Methods/Tools_CopyToSharedObject.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 27,
+		"lastSelectedLine": 27,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-24T13:52:27.885Z"
+	},
+	"Sources/Methods/Tools_CopyToSharedCollection.4dm": {
+		"startSelection": 8,
+		"endSelection": 8,
+		"firstSelectedLine": 15,
+		"lastSelectedLine": 15,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-04-24T13:52:14.421Z"
 	}
 }

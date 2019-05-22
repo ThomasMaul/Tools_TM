@@ -1,7 +1,6 @@
 //%attributes = {"shared":true,"preemptive":"capable"}
-  // Ändert Größe der Tabelle
-  // konnte früher über Tabelle Text($1»;$2) gemacht werden
-  // läuft ab 2.3 auf 68K nicht mehr
+  // tools_ResizeArray(Arraypointer;newsize)
+  // allows resizing for arrays of any type
 
 ASSERT:C1129($2>=0;"Size needs to be >=0")
 ASSERT:C1129(Type:C295($1)=Is pointer:K8:14;"parameter 1 needs to be a pointer to an array")
@@ -19,4 +18,3 @@ Case of
 		$pos:=$alt-$2
 		DELETE FROM ARRAY:C228($1->;$alt-$pos+1;$pos)
 End case 
-  // sonst ist es gleich,d ann ist es egal
