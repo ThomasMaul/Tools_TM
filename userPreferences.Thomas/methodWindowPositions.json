@@ -60,14 +60,14 @@
 		"height": 770
 	},
 	"Sources/Methods/Tools_SplitTextTTR.4dm": {
-		"left": 497,
-		"top": 109,
+		"left": 1025,
+		"top": 327,
 		"width": 1052,
 		"height": 997
 	},
 	"Sources/Methods/Tools_Split2DimTextTTR.4dm": {
-		"left": 2115,
-		"top": 716,
+		"left": 86,
+		"top": 213,
 		"width": 1314,
 		"height": 1082
 	},
@@ -184,5 +184,17 @@
 		"top": 268,
 		"width": 1392,
 		"height": 1077
+	},
+	"Sources/Methods/Tools_FindArrayValue.4dm": {
+		"left": 181,
+		"top": 487,
+		"width": 982,
+		"height": 910
+	},
+	"Sources/Methods/Compiler_ToolsTM.4dm": {
+		"left": 244,
+		"top": 230,
+		"width": 982,
+		"height": 910
 	}
 }

@@ -8,3 +8,5 @@ previous versions included much more methods, such as HTTP_Download or File name
 
 
 Note: project requires 4D v17 R5 or newer.
+
+Documentation for methods see Methods.html

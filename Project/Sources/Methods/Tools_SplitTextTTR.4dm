@@ -1,8 +1,8 @@
 //%attributes = {"shared":true,"preemptive":"capable"}
-  // ZerlegeTabText (Arrayptr, Text; {tabzeichen; returnzeichen})
-  //  Arrayptr Zeiger auf Alpha-Tabelle
-  // ZERLEGT Text in Tab, Tab, Tab, ev. Return, bis zum Schluß und setzt in Tabelle,
-
+  // Toosl_SplitTextTTR (Arrayptr, Text; {tabchar; returnchar})
+  // Arrayptr Pointer auf Text Array
+  // split Text in Tab, Tab, Tab, ev. Return, returns as array,
+  // note: this method is very old. These days it is more clever to use collections (split string)
 
 
 ASSERT:C1129(Type:C295($1)=Is pointer:K8:14;"parameter 1 needs to be a pointer to an array")

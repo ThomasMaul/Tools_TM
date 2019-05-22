@@ -1,6 +1,7 @@
 //%attributes = {"shared":true,"preemptive":"capable"}
-  //Funktion KALENDERWOCHE(Date)=LongInt
-  //liefert die KW eines Datums laut DIN 1355 (ISO/R 2015-1971)
+  //CalendarWeek(Date)=LongInt
+  //return calenderweek based on DIN 1355 (ISO/R 2015-1971)
+  // from Ortwin Zillgen
 C_LONGINT:C283($0)  //Ergebnis: Kalenderwoche
 C_DATE:C307($1)  //Eingabe: Datum
 C_DATE:C307($dat_jan4;$dat_dez31;$dat_jan1_vj)

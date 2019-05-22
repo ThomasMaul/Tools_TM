@@ -1,8 +1,9 @@
 //%attributes = {"shared":true,"preemptive":"capable"}
-  // Tools_Split2DimTextTTR(Arrayptr, Text;$MaxNumElements; {tabchar; returnzchar})
-  //  Arrayptr Zeiger auf 2 dimensionale Alpha-Tabelle
-  // ZERLEGT Text in Tab, Tab, Tab, ev. Return, bis zum Schluß und setzt in Tabelle,
-  // diese wird neu dimensioniert!
+  // Tools_Split2DimTextTTR(Arrayptr, Text;$MaxNumElements; {tabchar; returnchar})
+  //  Arrayptr pointer to 2 dimensional array
+  // split Text in Tab, Tab, Tab, ev. Return, returns as array,
+  // note: this method is very old. These days it is more clever to use collections (split string)
+
 
 $MaxAnzElemente:=$3
 If (Count parameters:C259<5)
