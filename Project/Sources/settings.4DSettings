@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="12">
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="13">
 	<com.4d>
 		<interface>
 			<user can_change_password="true" default_user="0" print_progress="false"/>
@@ -30,7 +30,7 @@
                                       			</remote>
                 		</web>
 		<compiler>
-			<options fat_binary="true" symbol_file="true"/>
+			<options compilation_path="2" fat_binary="true" symbol_file="true"/>
           		</compiler>
 		<database>
 			<misc/>

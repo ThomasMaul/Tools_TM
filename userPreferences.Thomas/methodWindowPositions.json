@@ -90,8 +90,8 @@
 		"height": 1643
 	},
 	"Sources/Methods/Tools_URL_Encoder.4dm": {
-		"left": 563,
-		"top": 103,
+		"left": 1078,
+		"top": 518,
 		"width": 1268,
 		"height": 934
 	},
@@ -123,55 +123,55 @@
 		"left": 1162,
 		"top": 198,
 		"width": 1641,
-		"height": 1417
+		"height": 1283
 	},
 	"Sources/Methods/Tools_XMLtoObject_Sub.4dm": {
-		"left": 1162,
-		"top": 198,
+		"left": 1226,
+		"top": 650,
 		"width": 1641,
-		"height": 1417
+		"height": 1283
 	},
 	"Sources/Methods/Tools_XMLToObject.4dm": {
 		"left": 1162,
 		"top": 198,
 		"width": 1641,
-		"height": 1417
+		"height": 1283
 	},
 	"Sources/Methods/Tools_RGBColorLight.4dm": {
-		"left": 950,
-		"top": 250,
+		"left": 51,
+		"top": 476,
 		"width": 1641,
-		"height": 1417
+		"height": 1283
 	},
 	"Sources/Methods/Tools_HexToDec.4dm": {
 		"left": 950,
 		"top": 250,
 		"width": 1641,
-		"height": 1417
+		"height": 1283
 	},
 	"Sources/Methods/Tools_FindNextNewLine.4dm": {
-		"left": 950,
-		"top": 250,
+		"left": 0,
+		"top": 917,
 		"width": 1641,
-		"height": 1417
+		"height": 1283
 	},
 	"Sources/Methods/Tools_CheckIBAN.4dm": {
 		"left": 1091,
 		"top": 284,
 		"width": 1641,
-		"height": 1417
+		"height": 1283
 	},
 	"Sources/Methods/Tools_GetWindowSize2Object.4dm": {
 		"left": 1568,
 		"top": 475,
 		"width": 1667,
-		"height": 1552
+		"height": 1283
 	},
 	"Sources/Methods/Tools_SetWindowSizeByObject.4dm": {
 		"left": 1568,
 		"top": 475,
 		"width": 1667,
-		"height": 1552
+		"height": 1283
 	},
 	"Sources/Methods/Tools_CopyToSharedObject.4dm": {
 		"left": 1386,
@@ -192,8 +192,8 @@
 		"height": 910
 	},
 	"Sources/Methods/Compiler_ToolsTM.4dm": {
-		"left": 244,
-		"top": 230,
+		"left": 494,
+		"top": 425,
 		"width": 982,
 		"height": 910
 	}

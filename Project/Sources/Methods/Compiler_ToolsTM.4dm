@@ -1,4 +1,32 @@
 //%attributes = {"invisible":true,"preemptive":"incapable"}
+C_OBJECT:C1216(Tools_XMLtoObject_Sub ;$1)
+C_TEXT:C284(Tools_XMLtoObject_Sub ;$2;$3;$4)
+C_TEXT:C284(Tools_XMLToObject ;$1)
+C_OBJECT:C1216(Tools_XMLToObject ;$0)
+
+C_TEXT:C284(Tools_FindNextNewLine ;$1)
+C_LONGINT:C283(Tools_FindNextNewLine ;$2;$0)
+
+C_TEXT:C284(Tools_CheckIBAN ;$1)
+C_BOOLEAN:C305(Tools_CheckIBAN ;$0)
+
+C_LONGINT:C283(Tools_RGBColorLight ;$1;$0;$2)
+
+C_COLLECTION:C1488(Tools_CopyToSharedCollection ;$1;$2)
+C_OBJECT:C1216(Tools_CopyToSharedObject ;$1;$2)
+
+C_TEXT:C284(Tools_URL_Encoder ;$0;$1;$2)
+C_TEXT:C284(Tools_URL_Encoder2 ;$0)
+C_LONGINT:C283(Tools_URL_Encoder2 ;$1)
+
+C_OBJECT:C1216(Tools_GetWindowSize2Object ;$0)
+C_OBJECT:C1216(Tools_SetWindowSizeByObject ;$1)
+
+C_TEXT:C284(Tools_GitCommit ;$1;$2)
+
+C_TEXT:C284(Tools_HexToDec ;$1)
+C_LONGINT:C283(Tools_HexToDec ;$0)
+
 C_POINTER:C301(Tools_FindArrayValue ;$2;$3)
 C_OBJECT:C1216(Tools_FindArrayValue ;$4)
 C_TEXT:C284(Tools_FindArrayValue ;$0;$1)
