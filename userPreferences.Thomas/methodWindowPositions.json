@@ -196,5 +196,17 @@
 		"top": 801,
 		"width": 982,
 		"height": 910
+	},
+	"Sources/Methods/zzbuild.4dm": {
+		"left": 344,
+		"top": 377,
+		"width": 1715,
+		"height": 1339
+	},
+	"Sources/Methods/Tools_GitDefineFolder.4dm": {
+		"left": 1306,
+		"top": 360,
+		"width": 1541,
+		"height": 1339
 	}
 }

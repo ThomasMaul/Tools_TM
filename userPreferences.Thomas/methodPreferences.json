@@ -295,5 +295,23 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2019-07-16T10:00:23.660Z"
+	},
+	"Sources/Methods/zzbuild.4dm": {
+		"startSelection": 27,
+		"endSelection": 27,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-16T10:23:55.023Z"
+	},
+	"Sources/Methods/Tools_GitDefineFolder.4dm": {
+		"startSelection": 15,
+		"endSelection": 45,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-16T09:59:36.187Z"
 	}
 }
