@@ -1,0 +1,143 @@
+﻿{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 0,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onTimer",
+		"onAfterKeystroke",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"top": 8,
+					"left": 8,
+					"width": 426,
+					"height": 636,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"listboxType": "collection",
+					"movableRows": false,
+					"dataSource": "Form:C1466.list",
+					"currentItemSource": "Form:C1466.line",
+					"selectedItemsSource": "Form:C1466.lines",
+					"scrollbarHorizontal": "automatic",
+					"method": "ObjectMethods/List Box.4dm",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Spalte1",
+							"dataSource": "This:C1470.name",
+							"width": 156,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf1",
+								"text": "Name"
+							},
+							"footer": {
+								"name": "Fußteil1",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte2",
+							"dataSource": "This:C1470.stamp",
+							"width": 120,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf2",
+								"text": "Date"
+							},
+							"footer": {
+								"name": "Fußteil2",
+								"timeFormat": "hh_mm_ss"
+							}
+						},
+						{
+							"name": "Spalte3",
+							"dataSource": "This:C1470.commit",
+							"width": 135,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Kopf3",
+								"text": "Commit"
+							},
+							"footer": {
+								"name": "Fußteil3",
+								"timeFormat": "hh_mm_ss"
+							}
+						}
+					]
+				},
+				"Web Area": {
+					"type": "webArea",
+					"top": 6,
+					"left": 468,
+					"width": 692,
+					"height": 638,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"contextMenu": "none"
+				},
+				"Splitter": {
+					"type": "splitter",
+					"top": 1,
+					"left": 444,
+					"width": 9,
+					"height": 661,
+					"sizingY": "grow",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	]
+}
