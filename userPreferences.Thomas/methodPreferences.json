@@ -306,12 +306,21 @@
 		"stamp": "2019-07-16T10:23:55.023Z"
 	},
 	"Sources/Methods/Tools_GitDefineFolder.4dm": {
-		"startSelection": 15,
-		"endSelection": 45,
-		"firstSelectedLine": 5,
-		"lastSelectedLine": 5,
+		"startSelection": 0,
+		"endSelection": 28,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 13,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2019-07-16T09:59:36.187Z"
+		"stamp": "2019-07-16T10:33:24.587Z"
+	},
+	"Sources/Methods/Tools_GitMethodCompare.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2019-07-16T10:33:14.878Z"
 	}
 }
