@@ -12,5 +12,7 @@
 C_TEXT:C284($1)
 Use (Storage:C1525)
 	Storage:C1525.GitSetting:=New shared object:C1526
-	Storage:C1525.GitSetting.GitFolder:=$1
+	Use (Storage:C1525.GitSetting)
+		Storage:C1525.GitSetting.GitFolder:=$1
+	End use 
 End use 
