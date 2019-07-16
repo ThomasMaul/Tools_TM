@@ -1,15 +1,3 @@
 ﻿{
-	"editors": [
-		{
-			"type": "method",
-			"id": 2147483613,
-			"codeDescriptor": {
-				"type": 1,
-				"methodName": "zzbuild"
-			}
-		},
-		{
-			"type": "explorer"
-		}
-	]
+	"editors": []
 }
