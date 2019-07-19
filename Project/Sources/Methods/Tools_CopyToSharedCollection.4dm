@@ -1,10 +1,10 @@
 //%attributes = {}
   //Method:Tools_CopyToSharedCollection
-  //$1:Collection to copy from
-  //$2:Shared Collection to copy to
   // source: https://kb.4d.com/assetid=78197
 
-C_COLLECTION:C1488($1;$2)
+C_COLLECTION:C1488($1)  // Collection to copy from
+C_COLLECTION:C1488($2)  // Shared Collection to copy to   /* */
+
 C_LONGINT:C283($counter)
 
 For ($counter;0;$1.length-1)
@@ -26,3 +26,4 @@ For ($counter;0;$1.length-1)
 			$2[$counter]:=$1[$counter]
 	End case 
 End for 
+

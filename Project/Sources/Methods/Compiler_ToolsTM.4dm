@@ -1,6 +1,6 @@
 //%attributes = {"invisible":true,"preemptive":"incapable"}
 C_TEXT:C284(Tools_GitMethodCompare ;$1;$2)
-C_TEXT:C284(Tools_GitDefineFolder ;$1)
+C_TEXT:C284(Tools_GitDefineFolder ;$1;$2)
 
 C_OBJECT:C1216(Tools_XMLtoObject_Sub ;$1)
 C_TEXT:C284(Tools_XMLtoObject_Sub ;$2;$3;$4)

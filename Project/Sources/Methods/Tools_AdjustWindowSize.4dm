@@ -2,9 +2,9 @@
   // AdjustWindowSize(TEXT Formularname; POINTER CurFormTable)
   // checks if current window is fully visible and large enough for current form
 
-C_TEXT:C284($1;$Formularname)
+C_TEXT:C284($1;$Formularname)  // Form name
 $Formularname:=$1
-C_POINTER:C301($2;$CurFormTable)
+C_POINTER:C301($2;$CurFormTable)  // Pointer to Table for form
 $CurFormTable:=$2
 
 ASSERT:C1129($Formularname#"";"Form name required as parameter 1")

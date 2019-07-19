@@ -1,7 +1,7 @@
 ﻿{
 	"Sources/Methods/Tools_AdjustWindowSize.4dm": {
-		"left": 263,
-		"top": 130,
+		"left": 1558,
+		"top": 437,
 		"width": 1365,
 		"height": 1133
 	},
@@ -182,7 +182,7 @@
 	"Sources/Methods/Tools_CopyToSharedCollection.4dm": {
 		"left": 1386,
 		"top": 268,
-		"width": 1392,
+		"width": 1660,
 		"height": 1077
 	},
 	"Sources/Methods/Tools_FindArrayValue.4dm": {
@@ -204,15 +204,27 @@
 		"height": 1339
 	},
 	"Sources/Methods/Tools_GitDefineFolder.4dm": {
-		"left": 1306,
-		"top": 360,
+		"left": 1536,
+		"top": 446,
 		"width": 1541,
 		"height": 1339
 	},
 	"Sources/Methods/Tools_GitMethodCompare.4dm": {
-		"left": 895,
-		"top": 199,
+		"left": 481,
+		"top": 308,
+		"width": 1292,
+		"height": 1048
+	},
+	"Sources/Forms/git_Compare/method.4dm": {
+		"left": 145,
+		"top": 306,
 		"width": 1786,
+		"height": 1220
+	},
+	"Sources/Forms/git_Compare/ObjectMethods/List Box.4dm": {
+		"left": 373,
+		"top": 277,
+		"width": 1368,
 		"height": 1220
 	}
 }
