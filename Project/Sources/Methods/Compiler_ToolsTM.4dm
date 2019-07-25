@@ -1,4 +1,11 @@
 //%attributes = {"invisible":true,"preemptive":"incapable"}
+C_OBJECT:C1216(Tools_ORDA_GetRelationSelection ;$0;$1)
+C_TEXT:C284(Tools_ORDA_GetRelationSelection ;$2)
+C_LONGINT:C283(Tools_ORDA_GetRelationSelection ;$3)
+
+C_TEXT:C284(Tools_FindRelationPath ;$1;$2;$0)
+C_LONGINT:C283(Tools_FindRelationPath ;$3)
+
 C_TEXT:C284(Tools_GitMethodCompare ;$1;$2)
 C_TEXT:C284(Tools_GitDefineFolder ;$1;$2)
 

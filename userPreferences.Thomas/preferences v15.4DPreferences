@@ -1,9 +1,12 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="72">
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="79">
 	<com.4d>
 		<database>
 			<data_storage data_path=":Tools_TM.4DD"/>
 		</database>
 		<general last_opening_mode="0"/>
+		<compiler>
+			<options display_warnings="true"/>
+		</compiler>
 	</com.4d>
 	<internal_prefs_4d>
 		<windows>

@@ -192,14 +192,14 @@
 		"height": 910
 	},
 	"Sources/Methods/Compiler_ToolsTM.4dm": {
-		"left": 1612,
-		"top": 801,
+		"left": 388,
+		"top": 486,
 		"width": 982,
 		"height": 910
 	},
 	"Sources/Methods/zzbuild.4dm": {
-		"left": 344,
-		"top": 377,
+		"left": 168,
+		"top": 243,
 		"width": 1715,
 		"height": 1339
 	},
@@ -210,8 +210,8 @@
 		"height": 1339
 	},
 	"Sources/Methods/Tools_GitMethodCompare.4dm": {
-		"left": 481,
-		"top": 308,
+		"left": 547,
+		"top": 356,
 		"width": 1292,
 		"height": 1048
 	},
@@ -226,5 +226,17 @@
 		"top": 277,
 		"width": 1368,
 		"height": 1220
+	},
+	"Sources/Methods/Tools_FindRelationPath.4dm": {
+		"left": 1430,
+		"top": 674,
+		"width": 1438,
+		"height": 947
+	},
+	"Sources/Methods/Tools_ORDA_GetRelationSelection.4dm": {
+		"left": 823,
+		"top": 713,
+		"width": 1438,
+		"height": 947
 	}
 }
