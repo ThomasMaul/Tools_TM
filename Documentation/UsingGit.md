@@ -6,8 +6,7 @@ The component includes two features helping to use Git. A method to commit your 
 
 If you are already using project mode for development or do a regular export of your structure (Export structure file) and commit that to Git (using GitHub, GitLab, Bitbucket, etc), sooner or later you want to see the difference between two commits directly in your code.
 
-![Example for diff in code editor]
-(https://github.com/ThomasMaul/Tools_TM_export/blob/master/Documentation/Diffexample.png)
+<img src="https://github.com/ThomasMaul/Tools_TM_export/blob/master/Documentation/Diffexample.png" />
 
 This text is assuming you already have Git installed, configured and used to commit and push your daily work. If not, at the end of this text you find some suggestions how to start.
 
@@ -26,8 +25,7 @@ https://stackoverflow.com/questions/26620312/installing-git-in-path-with-github-
 
 ## Using Code editor to get a method history from Git
 
-![Example for macro in code editor]
-(https://github.com/ThomasMaul/Tools_TM_export/blob/master/Documentation/Macro.png)
+<img src="https://github.com/ThomasMaul/Tools_TM_export/blob/master/Documentation/Macro.png" />
 
 The macro will call a 4D method, the method will call Git using Launch External Process, retrieve a history of changes, open a Window, use a list box to display the history and a web area to run a DIFF tool to compare two versions of that method.
 
@@ -94,8 +92,7 @@ So only quickly some steps needed to do:
 -	Sign up on Github, Gitlab or other services. Or run your own, like Bitbucket on a Raspberry...Use a public or private service…
 -	Create a new repository using the web interface of that service. (Don't select initialize, as you want to commit your existing local content)
 -	These services will show usually some command line hints such as:
-![Example for new repository]
-(https://github.com/ThomasMaul/Tools_TM_export/blob/master/Documentation/newrepository.png)
+<img src="https://github.com/ThomasMaul/Tools_TM_export/blob/master/Documentation/newrepository.png" />
 
 -	Install - if not done yet - git console tools.
 -	Using Terminal (Mac) or Console (Win), cd to your working/export directory
