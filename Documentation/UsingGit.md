@@ -104,3 +104,13 @@ So only quickly some steps needed to do:
 
 If all worked well, you can use the component as described. 
 You can also use GUI tools, they are using the same concept. 
+
+# Error "fatal: not a git repository"
+
+If doing a commit or a diff shows an alert with error "fatal: not a git repository", the automatic used path name does not fit to your directory and you need to specify it.
+The component is expecting that you are using the path returned by Get 4D folder(Database folder;*)
+This folder includes your Project Folder, Web Folder, Resources, Plugins, Components, everything.
+Using this folder allows to clone a repository and just use it.
+Of course you could decide to use just a subset, like only the project folder.
+In this case you need to pass to Git_Commit as 2nd parameter the path to your repository.
+And to use the diff macro, you need to use Tools_GitDefineFolder before with the folder path.
