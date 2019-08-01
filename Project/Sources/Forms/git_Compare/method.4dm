@@ -7,7 +7,7 @@ If (Form event:C388=On Load:K2:1)
 	
 	$col:=New collection:C1472
 	If ((Form:C1466.method#"") & (Form:C1466.folder#""))
-		$path:="git log --abbrev-commit --date=iso -n 20 '"+Form:C1466.method+"'"
+		$path:="git log --abbrev-commit --date=iso -n 20 "+Char:C90(34)+Form:C1466.method+Char:C90(34)
 		SET ENVIRONMENT VARIABLE:C812("_4D_OPTION_CURRENT_DIRECTORY";Form:C1466.folder)
 		SET ENVIRONMENT VARIABLE:C812("_4D_OPTION_HIDE_CONSOLE";"true")
 		$input:=""
