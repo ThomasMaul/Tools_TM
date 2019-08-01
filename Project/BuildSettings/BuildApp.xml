@@ -1,1 +1,57 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?><Preferences4D>  <BuildApp>    <BuildCompiled>False</BuildCompiled>    <IncludeAssociatedFolders>True</IncludeAssociatedFolders>    <BuildComponent>True</BuildComponent>    <BuildApplicationSerialized>False</BuildApplicationSerialized>    <BuildApplicationLight>False</BuildApplicationLight>    <SourcesFiles>      <RuntimeVL>        <RuntimeVLIncludeIt>True</RuntimeVLIncludeIt>      </RuntimeVL>      <CS>        <ServerIncludeIt>False</ServerIncludeIt>        <ClientWinIncludeIt>False</ClientWinIncludeIt>        <ClientMacIncludeIt>False</ClientMacIncludeIt>      </CS>    </SourcesFiles>    <BuildApplicationName>Tools_TM</BuildApplicationName>    <BuildWinDestFolder>..\Tools_TM_Build</BuildWinDestFolder>    <CS>      <BuildServerApplication>False</BuildServerApplication>      <BuildCSUpgradeable>False</BuildCSUpgradeable>      <CurrentVers>1</CurrentVers>      <HardLink></HardLink>      <LastDataPathLookup>ByAppName</LastDataPathLookup></CS>    <ArrayExcludedPluginName>      <ItemsCount>0</ItemsCount>    </ArrayExcludedPluginName>    <ArrayExcludedPluginID>      <ItemsCount>0</ItemsCount>    </ArrayExcludedPluginID>    <ArrayExcludedComponentName>      <ItemsCount>0</ItemsCount>    </ArrayExcludedComponentName>    <Licenses>      <ArrayLicenseWin>        <ItemsCount>0</ItemsCount>      </ArrayLicenseWin>      <ArrayLicenseMac>        <ItemsCount>1</ItemsCount>        <Item1>Macintosh HD:Users:thomas:Library:Application Support:4D:Licenses:R-PNUD170UUC0016PEJS0E547.license4D</Item1>      </ArrayLicenseMac>    </Licenses>    <RuntimeVL>      <LastDataPathLookup>ByAppName</LastDataPathLookup>    </RuntimeVL>    <BuildMacDestFolder>:Build:</BuildMacDestFolder>    <SignApplication>      <MacSignature>False</MacSignature>      <MacCertificate></MacCertificate>    </SignApplication>  </BuildApp></Preferences4D>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Preferences4D>
+
+  <BuildApp>
+    <BuildCompiled>False</BuildCompiled>
+    <IncludeAssociatedFolders>True</IncludeAssociatedFolders>
+    <BuildComponent>True</BuildComponent>
+    <BuildApplicationSerialized>False</BuildApplicationSerialized>
+    <BuildApplicationLight>False</BuildApplicationLight>
+    <SourcesFiles>
+      <RuntimeVL>
+        <RuntimeVLIncludeIt>True</RuntimeVLIncludeIt>
+      </RuntimeVL>
+      <CS>
+        <ServerIncludeIt>False</ServerIncludeIt>
+        <ClientWinIncludeIt>False</ClientWinIncludeIt>
+        <ClientMacIncludeIt>False</ClientMacIncludeIt>
+      </CS>
+    </SourcesFiles>
+    <BuildApplicationName>Tools_TM</BuildApplicationName>
+    <BuildWinDestFolder>..\Tools_TM_Build\</BuildWinDestFolder>
+    <CS>
+      <BuildServerApplication>False</BuildServerApplication>
+      <BuildCSUpgradeable>False</BuildCSUpgradeable>
+      <CurrentVers>1</CurrentVers>
+      <HardLink></HardLink>
+      <LastDataPathLookup>ByAppName</LastDataPathLookup></CS>
+    <ArrayExcludedPluginName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedPluginName>
+    <ArrayExcludedPluginID>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedPluginID>
+    <ArrayExcludedComponentName>
+      <ItemsCount>0</ItemsCount>
+    </ArrayExcludedComponentName>
+    <Licenses>
+      <ArrayLicenseWin>
+        <ItemsCount>1</ItemsCount>
+        <Item1>C:\ProgramData\4D\Licenses\R-PNUD170UUC001BCBRK0B065.license4D</Item1></ArrayLicenseWin>
+      <ArrayLicenseMac>
+        <ItemsCount>1</ItemsCount>
+        <Item1>Macintosh HD:Users:thomas:Library:Application Support:4D:Licenses:R-PNUD170UUC0016PEJS0E547.license4D</Item1>
+      </ArrayLicenseMac>
+    </Licenses>
+    <RuntimeVL>
+      <LastDataPathLookup>ByAppName</LastDataPathLookup>
+    </RuntimeVL>
+    <BuildMacDestFolder>:Build:</BuildMacDestFolder>
+    <SignApplication>
+      <MacSignature>False</MacSignature>
+      <MacCertificate></MacCertificate>
+    </SignApplication>
+  </BuildApp>
+
+
+</Preferences4D>
