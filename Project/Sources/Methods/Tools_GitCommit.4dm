@@ -14,6 +14,8 @@ Else
 	$path:=Get 4D folder:C485(Database folder:K5:14;*)  // structure for host
 End if 
 
+ASSERT:C1129(Test path name:C476($path)=Is a folder:K24:2;"Path needs to be a valid folder")
+
 If ($message="")
 	$message:=Request:C163("Commit message")
 End if 

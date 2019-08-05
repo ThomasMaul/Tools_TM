@@ -9,8 +9,8 @@ BUILD APPLICATION:C871($buildpath)
 If (OK=1)
 	$pathtarget:=$path+"Build"+Folder separator:K24:12+"Components"+Folder separator:K24:12+"Tools_TM.4dbase"+Folder separator:K24:12+"Macros v2"
 	$pathsource:=$path+"Macros v2"+Folder separator:K24:12+"Macros.xml"
-	CREATE FOLDER:C475($pathtarget;*)
 	$pathtarget:=$pathtarget+Folder separator:K24:12+"Macros.xml"
+	CREATE FOLDER:C475($pathtarget;*)
 	If (Test path name:C476($pathtarget)=Is a document:K24:1)
 		DELETE DOCUMENT:C159($pathtarget)
 	End if 

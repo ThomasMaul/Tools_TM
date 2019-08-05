@@ -42,6 +42,8 @@ If (String:C10(Storage:C1525.GitSetting.Prefix)#"")
 	$method:=Storage:C1525.GitSetting.Prefix+"/"+$method
 End if 
 
+ASSERT:C1129(Test path name:C476(Storage:C1525.GitSetting.GitFolder)=Is a folder:K24:2;"Path to local git repository needs to be a valid folder")
+
 $formdata:=New object:C1471("method";$method;"folder";Storage:C1525.GitSetting.GitFolder;"newcontent";$methodText)
 $win:=Open form window:C675("git_Compare")
 DIALOG:C40("git_Compare";$formdata)
