@@ -114,3 +114,17 @@ Using this folder allows to clone a repository and just use it.
 Of course you could decide to use just a subset, like only the project folder.
 In this case you need to pass to Git_Commit as 2nd parameter the path to your repository.
 And to use the diff macro, you need to use Tools_GitDefineFolder before with the folder path.
+
+# Tools_GitDefineFolder returns error invalid path
+
+The first parameter to Tools_GitDefineFolder needs to be the path to your git repository. Check that path using console/terminal (on Mac using ls -la, on Windos using dir /A to show hidden folders). This path must contain the ".git" folder, which is created when you init it (see New to Git).
+If the given path does not contain this folder, an error is triggered.
+The second parameter is optional. If the first parameter, or default setting, points to the "Sources" folder or to the "Project" folder (which contains "Sources"), the parameter can be empty. Else the prefix needs to describe the path from the git folder (parameter 1) to Sources. An error is raised, if it does not point to sources.
+
+# Line Endings
+You might get errors on commit like "Error git add: warning: LF will be replaced by CRLF..."
+If this happens, you have installed/configured git to replace line endings automatically.
+When you install git on Windows there is a dialog "Configuring the line ending conversions". If you use git only for 4D, select the 3rd option "Checkout as-is, commit as-is". 4D handles lines endings internally.
+If you want to set this only to this repository, cd to the right folder and enter:
+git config core.autocrlf false
+Then you should not get the warning any longer.

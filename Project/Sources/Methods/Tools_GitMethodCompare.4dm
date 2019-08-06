@@ -43,6 +43,9 @@ If (String:C10(Storage:C1525.GitSetting.Prefix)#"")
 End if 
 
 ASSERT:C1129(Test path name:C476(Storage:C1525.GitSetting.GitFolder)=Is a folder:K24:2;"Path to local git repository needs to be a valid folder")
+If (((Storage:C1525.GitSetting.GitFolder="@Sources\\") | (Storage:C1525.GitSetting.GitFolder="@Sources")) & ($method="Sources@"))
+	$method:=Substring:C12($method;9)  // repository is the sources folder, so we must not start the path with it
+End if 
 
 $formdata:=New object:C1471("method";$method;"folder";Storage:C1525.GitSetting.GitFolder;"newcontent";$methodText)
 $win:=Open form window:C675("git_Compare")
