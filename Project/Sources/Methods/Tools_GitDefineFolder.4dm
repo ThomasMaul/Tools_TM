@@ -35,7 +35,7 @@ Use (Storage:C1525)
 			Storage:C1525.GitSetting.Prefix:=$2
 		Else 
 			Storage:C1525.GitSetting.Prefix:=""
-			If (Not:C34(Storage:C1525.GitSetting.GitFolder="@Sources"))
+			If ((Not:C34(Storage:C1525.GitSetting.GitFolder="@Sources")) & (Not:C34(Storage:C1525.GitSetting.GitFolder=("@Sources"+Folder separator:K24:12))))
 				If (Test path name:C476(Storage:C1525.GitSetting.GitFolder+"Project"+Folder separator:K24:12+"Sources"+Folder separator:K24:12)=Is a folder:K24:2)
 					Storage:C1525.GitSetting.Prefix:="Project"
 				Else 
