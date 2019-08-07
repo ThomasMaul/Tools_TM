@@ -40,7 +40,9 @@ If you don't care for the source, the compiled component can be loaded from:
 https://github.com/ThomasMaul/Tools_TM_export/tree/master/Build/Components/Tools_TM.4dbase
 Note: this build is compiled with 4D v17 R6, so will not run on R5 without recompilation.
 
-Install in your structure and restart. If you are already using project mode (and your project is already using git), all should work with default settings. Just open any method (project method, form method, object method, etc) and try the macro “Git_Compare”.
+Install in your structure and restart. If you are already using project mode (and your project is already using git), all should work with default settings, assuming your repository is set to be in the top folder (the folder containing Resources, Project, Web Folder). 
+Just open any method (project method, form method, object method, etc) and try the macro “Git_Compare”.
+If you prefer to use another folder (such as only the Project folder or even only the SourcesFolder), you need to pass the folder path to Tools_Gitcommit and need to use Tools_GitDefineFolder.
 
 If you are working in binary mode and export your structure from time to time (using Export Structure files) and you created a git repository for your export folder, you need to inform the component about the path used.
 
@@ -104,6 +106,8 @@ So only quickly some steps needed to do:
 
 If all worked well, you can use the component as described. 
 You can also use GUI tools, they are using the same concept. 
+If you want to learn more about Git, don't miss the technical note:
+https://kb.4d.com/assetid=78277
 
 # Error "fatal: not a git repository"
 
