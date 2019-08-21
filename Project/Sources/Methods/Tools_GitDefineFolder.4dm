@@ -39,8 +39,12 @@ Use (Storage:C1525)
 				If (Test path name:C476(Storage:C1525.GitSetting.GitFolder+"Project"+Folder separator:K24:12+"Sources"+Folder separator:K24:12)=Is a folder:K24:2)
 					Storage:C1525.GitSetting.Prefix:="Project"
 				Else 
-					ASSERT:C1129(False:C215;"Git Prefix setting failed, cannot find Sources folder")
-					Storage:C1525.GitSetting.Prefix:=""
+					If (Test path name:C476(Storage:C1525.GitSetting.GitFolder+"Sources"+Folder separator:K24:12)=Is a folder:K24:2)
+						Storage:C1525.GitSetting.Prefix:=""
+					Else 
+						ASSERT:C1129(False:C215;"Git Prefix setting failed, cannot find Sources folder")
+						Storage:C1525.GitSetting.Prefix:=""
+					End if 
 				End if 
 			End if 
 		End if 

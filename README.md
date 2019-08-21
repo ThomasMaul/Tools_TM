@@ -5,8 +5,10 @@ As I often needs these methods in various applications I placed them in a compon
 
 Documentation for methods see [Methods.html](http://htmlpreview.github.io/?https://github.com/ThomasMaul/Tools_TM_export/blob/master/Methods.html)
 
-Documentation for Git handling see [UsingGit](Documentation/UsingGit.md)
+Documentation for:
+Git handling see [UsingGit](Documentation/UsingGit.md)
 
+Structure helper tools see [Structure access](Documentation/Structure.md)
 
 ### Historic note
 

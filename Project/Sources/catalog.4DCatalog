@@ -2,6 +2,32 @@
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
 <base name="" uuid="69B99A8B6564FF44978BE3ABFB30AC69" collation_locale="de">
 	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Table_1" uuid="7157B3DF60724A11A8BA80014454A261" id="1" prevent_journaling="true">
+		<field name="ID" uuid="A20CEA9EE44C4776B5CE7D0A45DA047A" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="testing_only" uuid="DF8A61922010469A82F7ED2C7F248626" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="anotherfield" uuid="765C8B6456C04E8A9060E30729499663" type="6" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="A20CEA9EE44C4776B5CE7D0A45DA047A"/>
+		<primary_key field_name="testing_only" field_uuid="DF8A61922010469A82F7ED2C7F248626"/>
+		<table_extra>
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="159.05078125" top="183.5625" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="0F861C9DBFCA4FBE90D086791ED799DB" type="7">
+		<field_ref uuid="A20CEA9EE44C4776B5CE7D0A45DA047A" name="ID">
+			<table_ref uuid="7157B3DF60724A11A8BA80014454A261" name="Table_1"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="9659A63B18844D5B918AB5FCA19C9DC6" type="1">
+		<field_ref uuid="A20CEA9EE44C4776B5CE7D0A45DA047A" name="ID">
+			<table_ref uuid="7157B3DF60724A11A8BA80014454A261" name="Table_1"/>
+		</field_ref>
+		<field_ref uuid="DF8A61922010469A82F7ED2C7F248626" name="testing_only">
+			<table_ref uuid="7157B3DF60724A11A8BA80014454A261" name="Table_1"/>
+		</field_ref>
+	</index>
 	<base_extra data_file_path=":Tools_TM.4DD" package_name="Tools_TM" structure_file_name="Tools_TM" __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0">
 		<journal_file journal_file_enabled="false"/>
 	</base_extra>

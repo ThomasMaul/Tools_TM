@@ -1,4 +1,10 @@
 //%attributes = {"invisible":true,"preemptive":"incapable"}
+C_TEXT:C284(Tools_Structure_ConvertToObject ;$1)
+C_OBJECT:C1216(Tools_Structure_ConvertToObject ;$0)
+
+C_TEXT:C284(Tools_Structure_Read ;$1)
+C_OBJECT:C1216(Tools_Structure_Read ;$2;$0)
+
 C_OBJECT:C1216(Tools_ORDA_GetRelationSelection ;$0;$1)
 C_TEXT:C284(Tools_ORDA_GetRelationSelection ;$2)
 C_LONGINT:C283(Tools_ORDA_GetRelationSelection ;$3)
@@ -11,7 +17,10 @@ C_TEXT:C284(Tools_GitDefineFolder ;$1;$2)
 
 C_OBJECT:C1216(Tools_XMLtoObject_Sub ;$1)
 C_TEXT:C284(Tools_XMLtoObject_Sub ;$2;$3;$4)
+C_COLLECTION:C1488(Tools_XMLtoObject_Sub ;$5)
 C_TEXT:C284(Tools_XMLToObject ;$1)
+C_COLLECTION:C1488(Tools_XMLToObject ;$2)
+
 C_OBJECT:C1216(Tools_XMLToObject ;$0)
 
 C_TEXT:C284(Tools_FindNextNewLine ;$1)
