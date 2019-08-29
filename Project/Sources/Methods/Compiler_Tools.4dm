@@ -1,9 +1,18 @@
 //%attributes = {"invisible":true,"preemptive":"incapable"}
-C_TEXT:C284(Tools_Structure_ConvertToObject ;$1)
+C_TEXT:C284(Tools_Structure_ConvertToObject ;$1;$2)
 C_OBJECT:C1216(Tools_Structure_ConvertToObject ;$0)
 
 C_TEXT:C284(Tools_Structure_Read ;$1)
 C_OBJECT:C1216(Tools_Structure_Read ;$2;$0)
+
+C_OBJECT:C1216(Tools_Structure_Edit_Open ;$0)
+C_TEXT:C284(Tools_Structure_Edit_Open ;$1)
+C_OBJECT:C1216(Tools_Structure_Edit_Close ;$1)
+C_OBJECT:C1216(Tools_Structure_Edit_Create ;$1;$3;$4)
+C_TEXT:C284(Tools_Structure_Edit_Create ;$2)
+C_OBJECT:C1216(Tools_Structure_Edit_Modify ;$1;$3;$4)
+C_TEXT:C284(Tools_Structure_Edit_Modify ;$2)
+
 
 C_OBJECT:C1216(Tools_ORDA_GetRelationSelection ;$0;$1)
 C_TEXT:C284(Tools_ORDA_GetRelationSelection ;$2)

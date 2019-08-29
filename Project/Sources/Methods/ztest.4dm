@@ -5,9 +5,16 @@ C_OBJECT:C1216($structure;$table;$field;$relation;$relations;$index;$indexes)
 
 
 $path:="/Users/thomas/Documents/4D/4DVerw_Export/Sources/catalog.4DCatalog"
+  // for compiled/build projects, which include the Catalog inside the 4DZ, use 
 
-$path:=Convert path POSIX to system:C1107($path)
-$structure:=Tools_Structure_ConvertToObject ($path)
+If (True:C214)
+	$xml:=""
+	EXPORT STRUCTURE:C1311($xml)
+	$structure:=Tools_Structure_ConvertToObject ("";$xml)
+Else 
+	$path:=Convert path POSIX to system:C1107($path)
+	$structure:=Tools_Structure_ConvertToObject ($path)
+End if 
 
 $table:=$structure.getTableInfo(New object:C1471("name";"Kunden"))
 $table:=$structure.getTableInfo(New object:C1471("uuid";"B54858F5EF4DA4409FFEA45A36030BA8"))
