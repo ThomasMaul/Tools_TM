@@ -1,4 +1,6 @@
 //%attributes = {"invisible":true}
+$test:=AJ_Tools_UT_runAll ()
+
 ARRAY LONGINT:C221($a;1)
 Tools_ResizeArray (->$a;10)
 
