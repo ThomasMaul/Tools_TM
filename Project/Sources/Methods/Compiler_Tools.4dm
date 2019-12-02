@@ -1,4 +1,7 @@
 //%attributes = {"invisible":true,"preemptive":"incapable"}
+C_TEXT:C284(Tools_ORDA_GetFieldTypeFromPath ;$1)
+C_LONGINT:C283(Tools_ORDA_GetFieldTypeFromPath ;$0)
+
 C_TEXT:C284(Tools_Structure_ConvertToObject ;$1)
 C_OBJECT:C1216(Tools_Structure_ConvertToObject ;$0)
 
