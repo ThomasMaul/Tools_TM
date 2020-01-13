@@ -98,3 +98,5 @@ C_REAL:C285(Tools_ResizeArray ;$2)
 C_DATE:C307(Tools_TS_GetDate ;$0)
 C_LONGINT:C283(Tools_TS_GetDate ;$1)
 C_DATE:C307(Tools_TS_GetDate ;$2)
+
+C_BOOLEAN:C305(zzbuild_unitTest ;$0)

@@ -3,12 +3,15 @@
   // after build, it copies the Macros folder inside the component
   // I build on Mac, you might need to adapt path for windows
 
-$result:=AJ_Tools_UT_runAll 
-If ($result.countFail#0)
-	ALERT:C41("Unit Tests failed")
-	AJ_Tools_UT_LaunchMainWindow 
-Else 
-	
+$continue:=True:C214
+
+ARRAY TEXT:C222($components;0)
+COMPONENT LIST:C1001($components)
+If (Find in array:C230($components;"AJ_Tools_UnitTest")>0)  // Unit Test component is installed
+	$continue:=zzbuild_unitTest 
+End if 
+
+If ($continue)
 	$path:=Get 4D folder:C485(Database folder:K5:14)
 	$buildpath:=$path+"Project"+Folder separator:K24:12+"BuildSettings"+Folder separator:K24:12+"BuildApp.xml"
 	BUILD APPLICATION:C871($buildpath)
