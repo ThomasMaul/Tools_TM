@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"preemptive":"capable"}
   //Method:Tools_CopyToSharedCollection
   // source: https://kb.4d.com/assetid=78197
 

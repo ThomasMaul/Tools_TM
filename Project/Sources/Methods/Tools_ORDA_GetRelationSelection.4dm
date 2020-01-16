@@ -1,4 +1,4 @@
-//%attributes = {"shared":true}
+//%attributes = {"shared":true,"preemptive":"capable"}
   // $sel := ORDA_GetRelationSelection(fromsel;Data class name;maxdepth)
   // join an entity selection to a related data class and return selection
 

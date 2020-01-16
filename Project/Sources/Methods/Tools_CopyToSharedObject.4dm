@@ -1,4 +1,4 @@
-//%attributes = {"shared":true}
+//%attributes = {"shared":true,"preemptive":"capable"}
   //Method: Tools_CopyToSharedObject
   //$1: Object to copy from
   //$2: Shared Object to copy to

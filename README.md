@@ -16,7 +16,7 @@ Previous versions included much more methods, such as `HTTP_Download` or File na
 
 ### Note
 
-* Project requires 4D v17 R5 or newer.
+* Project requires 4D v18.
 * Included binary build is compiled with v17 R6, requires recompilation to be useable with R5
 * Unit testing done with Ajar's UnitTest component, see [Unit Test](https://ch-de.4d.com/ajtoolsunittest) - Component can be removed for deployment of Tools_TM, only needed if you modify/recompile the component.
 
