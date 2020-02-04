@@ -5,11 +5,11 @@
 
 $continue:=True:C214
 
-ARRAY TEXT:C222($components;0)
-COMPONENT LIST:C1001($components)
-If (Find in array:C230($components;"AJ_Tools_UnitTest")>0)  // Unit Test component is installed
-	$continue:=zzbuild_unitTest 
-End if 
+  //ARRAY TEXT($components;0)
+  //COMPONENT LIST($components)
+  //If (Find in array($components;"AJ_Tools_UnitTest")>0)  // Unit Test component is installed
+  //$continue:=zzbuild_unitTest 
+  //End if 
 
 If ($continue)
 	$path:=Get 4D folder:C485(Database folder:K5:14)
