@@ -1,0 +1,1 @@
+﻿##  returns field type for a given path   like Customer.name or Invoice.Customer.Name or InvoiceItem.Invoice.Customer.Name  

@@ -1,0 +1,1 @@
+﻿##  modify window size, based on Object $1   if object empty, nothing is done  

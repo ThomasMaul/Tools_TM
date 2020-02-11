@@ -1,0 +1,1 @@
+﻿##  $sel := ORDA_GetRelationSelection(fromsel;Data class name;maxdepth)   join an entity selection to a related data class and return selection  

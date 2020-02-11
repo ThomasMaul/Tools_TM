@@ -1,0 +1,1 @@
+﻿##  soundex for German Language   http//de.wikipedia.org/wiki/K%C3%B6lner_Phonetik  $soundex := Tools_Soundex_Koeln(Wort)  

@@ -1,0 +1,1 @@
+﻿## Tools_AdjustWindowSize(TEXT Formularname; POINTER CurFormTable)  checks if current window is fully visible and large enough for current form  

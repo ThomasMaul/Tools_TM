@@ -1,0 +1,1 @@
+﻿##  Find next new line   in case we don't know if it is 10, 13 or 13/10   $1 = text   $2 (optional) start pos   $0 resultpos  

@@ -1,13 +1,15 @@
 //%attributes = {"shared":true,"preemptive":"capable"}
-  // Filter Text
-  // $1 = Source, $0 = result
-  // $2 = type
-  // 1 = only numeric (0-9)
-  // 2 = only numeric + special (0-9, -.,)
-  // 3 = remove @
-  // 4 = remove leading/ending blanks
-  // 5 = remove leading '0'
-  // 6 = remove tab or return
+/*
+## Tools_FilterText(String Text; Longint Type)=String
+ Filter Text:
+ 1 = only numeric (0-9)
+ 2 = only numeric + special (0-9, -.,)
+ 3 = remove @
+ 4 = remove leading/ending blanks
+ 5 = remove leading '0'
+ 6 = remove tab or return
+*/
+
 
 If (Count parameters:C259=2)
 	Case of 

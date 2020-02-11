@@ -1,0 +1,1 @@
+﻿##  Decnum := Tools_HexToDec(Hexstring)   $decnum := Tools_HextoDec("A2b3")  

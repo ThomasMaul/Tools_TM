@@ -1,0 +1,1 @@
+﻿##  commit source changes to git - $1 = message   git repository needs to be created/setup upfront, git installed   optional $2 path to source. If missing, host database folder  

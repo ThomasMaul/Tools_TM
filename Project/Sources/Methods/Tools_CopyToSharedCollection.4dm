@@ -1,6 +1,8 @@
 //%attributes = {"preemptive":"capable"}
-  //Method:Tools_CopyToSharedCollection
-  // source: https://kb.4d.com/assetid=78197
+/*
+## Tools_CopyToSharedCollection(Collection ToCopy, Collection CopyTo)
+source: https://kb.4d.com/assetid=78197
+*/
 
 C_COLLECTION:C1488($1)  // Collection to copy from
 C_COLLECTION:C1488($2)  // Shared Collection to copy to   /* */

@@ -1,0 +1,1 @@
+﻿## Tools_CopyToSharedObject(Object ToCopy, Object CopyTo)  source: https://kb.4d.com/assetid=78197  

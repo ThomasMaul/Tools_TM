@@ -1,0 +1,1 @@
+﻿## $value:=Tools_FindArrayValue("was";->webnames;->webvalues;$json)   usefull for WEB GET VARIABLES or value in JSON post as body  

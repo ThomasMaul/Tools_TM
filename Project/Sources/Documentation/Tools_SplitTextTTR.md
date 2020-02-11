@@ -1,0 +1,1 @@
+﻿##  Toosl_SplitTextTTR (Arrayptr, Text; {tabchar; returnchar})   Arrayptr Pointer auf Text Array   split Text in Tab, Tab, Tab, ev. Return, returns as array,   note: this method is very old. These days it is more clever to use collections (split string)  

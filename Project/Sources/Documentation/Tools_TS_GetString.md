@@ -1,0 +1,1 @@
+﻿##   übergibt aus TimeStamp String   Tools_TS_GetString(Timestamp Longint;{Startdatei})  

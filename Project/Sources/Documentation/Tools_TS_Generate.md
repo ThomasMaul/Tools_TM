@@ -1,0 +1,1 @@
+﻿##  create Time Stamp   TS := gGenerateTimeStamp(date;time;{startdate})   creates timestamp based on 1.1.1980, except other value is passed in $3  

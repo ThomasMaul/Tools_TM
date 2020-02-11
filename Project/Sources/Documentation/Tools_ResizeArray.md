@@ -1,0 +1,1 @@
+﻿##  tools_ResizeArray(Arraypointer;newsize)   allows resizing for arrays of any type  

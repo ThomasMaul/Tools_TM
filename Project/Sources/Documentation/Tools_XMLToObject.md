@@ -1,0 +1,1 @@
+﻿##  $object:=XMLToObject($XML_as_TEXT)   second parameter optional, if passed a collection of property names always to set as collection, not as object   used to convert Structure to XML  

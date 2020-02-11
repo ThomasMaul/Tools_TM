@@ -1,8 +1,8 @@
 //%attributes = {"shared":true,"preemptive":"capable"}
-  //Method: Tools_CopyToSharedObject
-  //$1: Object to copy from
-  //$2: Shared Object to copy to
-  // source: https://kb.4d.com/assetid=78197
+/*
+## Tools_CopyToSharedObject(Object ToCopy, Object CopyTo)
+source: https://kb.4d.com/assetid=78197
+*/
 
 C_OBJECT:C1216($1;$2)
 ARRAY TEXT:C222($arrNames;0)

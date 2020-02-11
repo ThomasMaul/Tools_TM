@@ -1,0 +1,1 @@
+﻿##  store current window size in Object and return as $0  

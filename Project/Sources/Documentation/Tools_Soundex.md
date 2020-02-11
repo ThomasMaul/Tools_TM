@@ -1,0 +1,1 @@
+﻿##  Aus Tech Note 6/92    Soundex (Originalstring; Genauigkeit) -> String  

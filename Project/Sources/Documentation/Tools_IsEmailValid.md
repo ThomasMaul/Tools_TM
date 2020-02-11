@@ -1,0 +1,1 @@
+﻿##  `check if email address in $1 is valid EMail Adresse in $1    uses RegEx if Unicode is on, else do it manual, not as good.  

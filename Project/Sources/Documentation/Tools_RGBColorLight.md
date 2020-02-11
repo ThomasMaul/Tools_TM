@@ -1,0 +1,1 @@
+﻿##  newcolor := Tools_RGBColorLight(color;ratio)    $color := Tools_RGBColorLight(0x4D7EC3;0.25)  

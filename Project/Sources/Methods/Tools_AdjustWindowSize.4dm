@@ -1,6 +1,8 @@
 //%attributes = {"shared":true,"preemptive":"incapable"}
-  // AdjustWindowSize(TEXT Formularname; POINTER CurFormTable)
-  // checks if current window is fully visible and large enough for current form
+/*
+## Tools_AdjustWindowSize(TEXT Formularname; POINTER CurFormTable)
+checks if current window is fully visible and large enough for current form
+*/
 
 C_TEXT:C284($1;$Formularname)  // Form name
 $Formularname:=$1

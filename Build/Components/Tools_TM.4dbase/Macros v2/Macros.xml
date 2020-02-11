@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+<!DOCTYPE macros SYSTEM "http://www.4d.com/dtd/2007/macros.dtd" >
+
+<!--
+Description
+Macro for code editor in design mode
+used by compoent Tools_TM
+https://github.com/ThomasMaul/Tools_TM_export
+-->
+
+<macros>
+
+<macro name="Git_Compare" in_menu="true" version="2" >
+<text>
+<method>Tools_GitMethodCompare("<method_name/>";"<method_path/>")</method>
+</text>
+</macro>
+
+</macros>

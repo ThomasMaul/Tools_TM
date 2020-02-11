@@ -1,6 +1,8 @@
 //%attributes = {"shared":true,"preemptive":"capable"}
-  // check IBAN number if valid (true/false)
-  // $valid := Tools_CheckIBAN(iban)
+/*
+## Tools_CheckIBAN(String IBAN)=Boolean
+check IBAN number if valid (true/false)
+*/
 
 C_TEXT:C284($1;$Iban)  // IBAN
 C_BOOLEAN:C305($0;$ergebnis)  // Result, true if ok

@@ -1,0 +1,1 @@
+﻿##  open form window with stack feature   parameter : form name, then window type, then table ptr (if table form)  

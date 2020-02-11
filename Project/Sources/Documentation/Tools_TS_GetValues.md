@@ -1,0 +1,1 @@
+﻿##  errechnet aus TimeStamp Datum und Zeit    gGetTimeStamp (TS;->Datum;->Zeit;{startdate})  

@@ -1,0 +1,1 @@
+﻿##  Tools_Split2DimTextTTR(Arrayptr, Text;$MaxNumElements; {tabchar; returnchar})    Arrayptr pointer to 2 dimensional array   split Text in Tab, Tab, Tab, ev. Return, returns as array,   note: this method is very old. These days it is more clever to use collections (split string)  

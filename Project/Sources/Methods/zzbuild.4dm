@@ -11,6 +11,8 @@ $continue:=True:C214
   //$continue:=zzbuild_unitTest 
   //End if 
 
+z_UpdateDocumentation 
+
 If ($continue)
 	$path:=Get 4D folder:C485(Database folder:K5:14)
 	$buildpath:=$path+"Project"+Folder separator:K24:12+"BuildSettings"+Folder separator:K24:12+"BuildApp.xml"

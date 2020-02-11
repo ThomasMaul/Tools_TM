@@ -1,0 +1,1 @@
+﻿## Tools_CalendarWeek(Date)=LongInt  return calenderweek based on DIN 1355 (ISO/R 2015-1971)  from Ortwin Zillgen  
