@@ -3,7 +3,7 @@
 Collection of generic methods.  
 As I often needs these methods in various applications I placed them in a component  
 
-Documentation for methods see [Methods.html](http://htmlpreview.github.io/?https://github.com/ThomasMaul/Tools_TM_export/blob/master/Methods.html)
+Documentation for methods see [Methods](Project/Sources/Documentation)
 
 Documentation for:
 Git handling see [UsingGit](Documentation/UsingGit.md)
