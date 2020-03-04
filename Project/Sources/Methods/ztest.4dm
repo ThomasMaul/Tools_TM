@@ -1,13 +1,14 @@
 //%attributes = {"invisible":true,"preemptive":"capable"}
-  //$path:="/Users/thomas/Documents/4D/Struktur_Export/Tools_TM/Project/Sources/catalog.4DCatalog"
 C_TEXT:C284($path)
 C_OBJECT:C1216($structure;$table;$field;$relation;$relations;$index;$indexes)
 
 
-$path:="/Users/thomas/Documents/4D/4DVerw_Export/Sources/catalog.4DCatalog"
-
+$path:="/Users/thomas/Documents/4D/4DVerwaltung/Project/Sources/catalog.4DCatalog"
 $path:=Convert path POSIX to system:C1107($path)
-$structure:=Tools_Structure_ConvertToObject ($path)
+$xml:=Document to text:C1236($path)
+$structure:=Tools_Structure_ConvertToObject ($xml)
+
+$relations:=$structure.getRelationInfos(New object:C1471("fromTable_name";"Auftrage";"relationName";"Kunde"))
 
 $table:=$structure.getTableInfo(New object:C1471("name";"Kunden"))
 $table:=$structure.getTableInfo(New object:C1471("uuid";"B54858F5EF4DA4409FFEA45A36030BA8"))

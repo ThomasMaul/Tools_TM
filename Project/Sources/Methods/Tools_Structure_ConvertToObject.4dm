@@ -1,27 +1,18 @@
 //%attributes = {"shared":true,"preemptive":"capable"}
   // convert XML structure to object
-  // pass path to structure.xml, without $1 it uses structure from host
-  // this method is required to call for binary mode. For project mode structures it is handled automatically
+  // pass structure text created with EXPORT STRUCTURE as $1
   // returns object with structure info
 
-C_OBJECT:C1216($files;$folder;$object)
-C_TEXT:C284($path;$xml)
+C_COLLECTION:C1488($files)
+C_OBJECT:C1216($folder;$object)
+C_TEXT:C284($xml)
 
-$path:=""
+$xml:=""
 If (Count parameters:C259>0)
-	$path:=$1
-Else 
-	$folder:=Folder:C1567("/SOURCES")
-	If ($folder.name="Sources")  // we are in project mode, in binary it would be resources
-		$files:=$folder.files().query("name=:1";"catalog")
-		If ($files.length>0)
-			$path:=$files[0].platformPath
-		End if 
-	End if 
+	$xml:=$1
 End if 
 
-If ($path#"")
-	$xml:=Document to text:C1236($path)
+If ($xml#"")
 	$object:=Tools_XMLToObject ($xml;New collection:C1472("table";"field";"relation";"index";"primary_key"))
 	
 	$object.getTableInfo:=Formula:C1597(Tools_Structure_Read ("table";$1))
@@ -33,6 +24,6 @@ If ($path#"")
 	
 	$0:=$object
 Else 
-	ALERT:C41("XML structure was not found, please specify in $1")
+	ALERT:C41("XML structure was passed, please specify in $1")
 	$0:=New object:C1471  // failure
 End if 

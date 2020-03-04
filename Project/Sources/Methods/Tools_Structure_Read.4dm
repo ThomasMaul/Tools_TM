@@ -71,12 +71,24 @@ Case of
 		
 	: ($1="relation")
 		If (This:C1470.table#Null:C1517)
-			If ($2.uuid#Null:C1517)
-				$relations:=This:C1470.relation.query("uuid=:1";$2.uuid)
-				If ($relations.length>0)
-					$result:=$relations[0]
-				End if 
-			End if 
+			Case of 
+				: ($2.uuid#Null:C1517)
+					$relations:=This:C1470.relation.query("uuid=:1";$2.uuid)
+					If ($relations.length>0)
+						$result:=$relations[0]
+					End if 
+					
+				: (($2.fromTable_name#Null:C1517) & ($2.relationName#Null:C1517))
+					$relations:=This:C1470.relation.query("name_1toN=:1 or name_Nto1=:1";$2.relationName)
+					For each ($relation;$relations)
+						$in:=$relation.related_field.query("kind='source' and field_ref.table_ref.name=:1";$2.fromTable_name)
+						If ($in.length>0)
+							$result:=$relation
+						End if 
+					End for each 
+				Else 
+					$result:=New object:C1471
+			End case 
 		End if 
 		
 	: ($1="relations")
@@ -113,6 +125,19 @@ Case of
 				: ($2.Table_name#Null:C1517)
 					For each ($relation;This:C1470.relation)
 						$in:=$relation.related_field.query("field_ref.table_ref.name=:1";$2.Table_name)
+						If ($in.length>0)
+							If ($result=Null:C1517)
+								$result:=New object:C1471("relations";New collection:C1472($relation))
+							Else 
+								$result.relations.push($relation)
+							End if 
+						End if 
+					End for each 
+					
+				: (($2.fromTable_name#Null:C1517) & ($2.relationName#Null:C1517))
+					$relations:=This:C1470.relation.query("name_1toN=:1 or name_Nto1=:1";$2.relationName)
+					For each ($relation;$relations)
+						$in:=$relation.related_field.query("kind='source' and field_ref.table_ref.name=:1";$2.fromTable_name)
 						If ($in.length>0)
 							If ($result=Null:C1517)
 								$result:=New object:C1471("relations";New collection:C1472($relation))

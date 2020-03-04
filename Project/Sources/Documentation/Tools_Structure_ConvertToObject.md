@@ -1,1 +1,1 @@
-﻿##  convert XML structure to object   pass path to structure.xml, without $1 it uses structure from host   this method is required to call for binary mode. For project mode structures it is handled automatically   returns object with structure info  
+﻿##  convert XML structure to object   pass structure text created with EXPORT STRUCTURE as $1   returns object with structure info  
