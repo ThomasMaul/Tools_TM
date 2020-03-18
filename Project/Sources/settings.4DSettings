@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="13">
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="14">
 	<com.4d>
 		<interface>
 			<user can_change_password="true" default_user="0" print_progress="false"/>
@@ -33,7 +33,7 @@
 			<options compilation_path="2" fat_binary="true" symbol_file="true"/>
           		</compiler>
 		<database>
-			<misc/>
+			<misc standard_xpath="true" use_ast_interpreter="false"/>
 		</database>
 		<server>
 			<network>

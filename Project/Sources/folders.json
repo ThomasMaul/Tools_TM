@@ -1,13 +1,13 @@
 ﻿{
-	"Standard-Formular": {},
-	"Standard-Tabelle": {},
 	"Standard Projekt-Methode": {},
+	"Standard-Formular": {},
 	"Standard-Ordner": {
 		"groups": [
+			"Standard Projekt-Methode",
 			"Standard-Formular",
-			"Standard-Tabelle",
-			"Standard Projekt-Methode"
+			"Standard-Tabelle"
 		]
 	},
+	"Standard-Tabelle": {},
 	"trash": {}
 }

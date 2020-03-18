@@ -20,31 +20,9 @@ If ((String:C10($1.xml)#"") & (String:C10($1.path)#"") & ($1.structure#Null:C151
 		: ($2="Table")
 			If (String:C10($3.table)#"")
 				$thetable:=$structure.getTableInfo(New object:C1471("name";$3.table))
-				If ($thetable#Null:C1517)
-					  // now we can modify...
-					$base:=DOM Find XML element:C864($xml;"base")
-					$child:=1
-					$xml_Child_Ref:=DOM Get first child XML element:C723($base;$name)
-					While (($name#"table") & (ok=1))
-						$child:=$child+1
-						$xml_Child_Ref:=DOM Get next sibling XML element:C724($xml_Child_Ref;$name)
-					End while 
-					  // we have the first table, now let's find the right one
-					$found:=""
-					$continue:=True:C214
-					Repeat 
-						DOM GET XML ATTRIBUTE BY NAME:C728($xml_Child_Ref;"name";$curName)
-						If ($curName=$3.table)
-							$found:=$xml_Child_Ref
-							$continue:=False:C215
-						End if 
-						$xml_Child_Ref:=DOM Get next sibling XML element:C724($xml_Child_Ref;$name)
-						If (($name#"table") | (ok=0))
-							$continue:=False:C215
-						End if 
-					Until ($continue=False:C215)
-					If ($found#"")
-						  //$4 contains all attributes to add or modify
+				If (Not:C34(OB Is empty:C1297($thetable)))
+					$found:=DOM Find XML element:C864($xml;"/base/table[@name=\""+$3.table+"\"]")
+					If (OK=1)
 						For each ($attribute;$4)
 							DOM SET XML ATTRIBUTE:C866($found;$attribute;$4[$attribute])
 							$thetable[$attribute]:=$4[$attribute]
@@ -52,7 +30,6 @@ If ((String:C10($1.xml)#"") & (String:C10($1.path)#"") & ($1.structure#Null:C151
 					Else 
 						ALERT:C41("Internal error, table not found")
 					End if 
-					
 				Else 
 					ALERT:C41("table does not exists")
 				End if 
@@ -66,15 +43,17 @@ If ((String:C10($1.xml)#"") & (String:C10($1.path)#"") & ($1.structure#Null:C151
 					ALERT:C41("table does not exist yet")
 				Else 
 					$field:=$structure.getFieldInfo(New object:C1471("table_name";$3.table;"field_name";$3.field))
-					If ($field=Null:C1517)
-						ALERT:C41("field does not exist yet")
-					Else 
-						  // find table.
-						
-						  // inside table find field
-						
-						  // add attributes
-						
+					
+					If (Not:C34(OB Is empty:C1297($field)))
+						$found:=DOM Find XML element:C864($xml;"/base/table[@name=\""+$3.table+"\"]/field[@name=\""+$3.field+"\"]")
+						If (OK=1)
+							For each ($attribute;$4)
+								DOM SET XML ATTRIBUTE:C866($found;$attribute;$4[$attribute])
+								$field[$attribute]:=$4[$attribute]
+							End for each 
+						Else 
+							ALERT:C41("Internal error, field not found")
+						End if 
 					End if 
 				End if 
 			End if   // case field
