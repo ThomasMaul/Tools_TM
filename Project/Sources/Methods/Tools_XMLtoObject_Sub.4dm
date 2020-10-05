@@ -9,6 +9,11 @@ C_OBJECT:C1216($oldobject;$obj;$dummy)
 $dummy:=New object:C1471
 $numAttributes:=DOM Count XML attributes:C727($ref)
 C_TEXT:C284($Attrib;$ValAttrib)
+
+// store original name and fix issues such as hyphens
+$dummy["__name"]:=$name
+$name:=Replace string:C233($name;"-";"_")
+
 For ($i;1;$numAttributes)
 	DOM GET XML ATTRIBUTE BY INDEX:C729($ref;$i;$Attrib;$ValAttrib)
 	$dummy[$Attrib]:=$ValAttrib
