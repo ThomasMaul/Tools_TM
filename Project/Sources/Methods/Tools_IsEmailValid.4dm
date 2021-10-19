@@ -18,8 +18,9 @@ ARRAY LONGINT:C221($_position;0)
 ARRAY LONGINT:C221($_length;0)
 If (Match regex:C1019($pattern;$emailAddress;1;$_position;$_length))
 	If ($_length{0}=Length:C16($emailAddress))
-		$email_username:=Substring:C12($emailAddress;$_position{1};$_length{1})
-		$email_domain:=Substring:C12($emailAddress;$_position{2};$_length{2})
+		// both results unused here, but might be useful for other needs
+		// $user_email_username:=Substring:C12($emailAddress;$_position{1};$_length{1})
+		// $user_email_domain:=Substring:C12($emailAddress;$_position{2};$_length{2})
 		$ergebnis:=True:C214
 	End if 
 End if 
