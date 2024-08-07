@@ -46,7 +46,7 @@
     <RuntimeVL>
       <LastDataPathLookup>ByAppName</LastDataPathLookup>
     </RuntimeVL>
-    <BuildMacDestFolder>:Build:</BuildMacDestFolder>
+    <BuildMacDestFolder>::Tools_Build:</BuildMacDestFolder>
     <SignApplication>
       <MacSignature>False</MacSignature>
       <MacCertificate></MacCertificate>

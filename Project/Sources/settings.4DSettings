@@ -1,37 +1,29 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="13">
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="16">
 	<com.4d>
 		<interface>
 			<user can_change_password="true" default_user="0" print_progress="false"/>
-			<developper design_acces="0"/>
-                		</interface>
+			<developper design_acces="0"/>                </interface>
 		<sql>
-			<access data_read_only="0" data_read_write="0" full="1"/>
-          		</sql>
+			<access data_read_only="0" data_read_write="0" full="1"/>          </sql>
 		<web>
 			<standalone_server>
 				<misc/>
 				<options>
 					<web_processes timeout_for_inactives="18000"/>
 					<cache cache_max_size="524288"/>
-					<web_passwords generic_web_user="1"/>
-                                      				</options>
+					<web_passwords generic_web_user="1"/>                                      </options>
 				<configuration allow_ssl="false" automatic_session_management="false" ip_address="0" listening_address="::"/>
-				<webservices allow_requests="false" name="" name_space="" wizard_method_prefix=""/>
-                                      			</standalone_server>
+				<webservices allow_requests="false" name="" name_space="" wizard_method_prefix=""/>                                      </standalone_server>
 			<remote>
 				<misc/>
 				<options>
 					<web_processes timeout_for_inactives="18000"/>
 					<cache cache_max_size="524288"/>
-					<web_passwords generic_web_user="1"/>
-                                      				</options>
+					<web_passwords generic_web_user="1"/>                                      </options>
 				<configuration allow_ssl="false" automatic_session_management="false" ip_address="0"/>
-				<webservices allow_requests="false" name="" name_space="" wizard_method_prefix=""/>
-                                      			</remote>
-                		</web>
+				<webservices allow_requests="false" name="" name_space="" wizard_method_prefix=""/>                                      </remote>                </web>
 		<compiler>
-			<options compilation_path="2" fat_binary="true" symbol_file="true"/>
-          		</compiler>
+			<options compilation_path="2" fat_binary="true" symbol_file="true" target="all"/>          </compiler>
 		<database>
 			<misc/>
 		</database>
@@ -42,6 +34,4 @@
 		</server>
 		<deployment>
 			<options/>
-		</deployment>
-                  	</com.4d>
-  </preferences>
+		</deployment>                  </com.4d>  </preferences>
