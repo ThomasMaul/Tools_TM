@@ -77,7 +77,7 @@ Function Zip($source : Text; $target : Text)->$error : Object
 		If (Test path name:C476($target)=Is a document:K24:1)
 			DELETE DOCUMENT:C159($target)  // just to be sure that zip works and we can fetch errors
 		End if 
-		$cmd:="/usr/bin/ditto -c -k --keepParent "+Char:C90(34)+Convert path system to POSIX:C1106($source)+Char:C90(34)+" "+Char:C90(34)+Convert path system to POSIX:C1106($target)+Char:C90(34)
+		$cmd:="/usr/bin/ditto -c -k --keepParent --norsrc --noextatt "+Char:C90(34)+Convert path system to POSIX:C1106($source)+Char:C90(34)+" "+Char:C90(34)+Convert path system to POSIX:C1106($target)+Char:C90(34)
 		$in:=""
 		$out:=""
 		$err:=""
